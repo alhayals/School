@@ -1,0 +1,460 @@
+body { background-color:#fff; color:#404041;  -webkit-font-smoothing: antialiased; font-size:16px; font-weight:300; 
+  font-family: "Lato";}
+
+html { overflow:scroll; }  
+img { border:0; }  
+* { vertical-align: baseline;font-size: 100%; outline: 0; padding: 0; margin: 0; -webkit-font-smoothing:antialiased; }
+a{
+  color:#404041;
+}
+ul.mainnav { float:none; list-style:none; padding:10px 0; margin:0 0 5px 0;  width:100%; }
+#navbar ul li a { color:#5d5d5d; font-size:14px; text-decoration:none; }
+#navbar ul li a:hover{ border-bottom: 2px solid #a85a2f;}
+.emoji img {
+  max-width:20px;
+  max-height:20px;
+}
+.navbar-default{ background-color:#fff; margin-bottom:0; border:0px;}
+.navbar {
+  background-color: #fff;
+  border:0px;
+}
+.headerimg{
+  max-width:230px;
+}
+.unread{
+  background-color: #efefef;
+}
+.navbar-toggle{
+  margin-bottom: 40px;
+}
+.taglist{
+border:2px solid #ccc; width:250px; height: 100px; overflow-y: scroll; 
+}
+.navbar-right{margin-top:25px;}
+h1 { margin:0 0 5px 0; font-size:25px; padding:0; }
+h2 { margin:5px 0 10px 0px; font-size:18px; }
+h4 { margin:0 0 10px 0; font-size:16px; }
+h5 { margin:0 0 0px 0; padding:0; font-size:14px; font-weight:bold; }.navbar img{padding: 20px; padding-top:5px;float: left;}
+.title{font-size: 45px;}
+.dmgfont{ color: rgb(172, 181, 82);font-weight: bold;}
+.headpanel{
+   font-family: "Lato"; 
+   background-image: url(../images/headpanel.png);
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.bold{
+
+  font-weight: 800;
+}
+#header-wrap{
+background-color: #272727;
+color:#fff;
+height:100px;
+}
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footerlinks hr{
+  border-top: 1px solid #414042;
+}
+.footer{
+  background-color: #272727;
+  color:#fff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:37px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+#info {
+    opacity: 0.0;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    max-height:0px;
+
+}
+#moreinfo {
+    height:120px;
+    margin-bottom:15px;
+}
+#moreinfo:hover + #info {
+    opacity: 1.0;
+     max-height:500px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.headpanelText h1{
+
+  font-weight: 100;
+  font-size: 68px;
+  margin-bottom: 0px;
+}
+.headpanelText{
+  font-size: 20px;
+  font-family: "Lato";
+  text-align: center;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+  padding:20px;
+}
+.date{
+  margin-top: -5px;
+}
+.login form{
+
+  background-color: rgba(88, 88, 88, 0.7);
+    width: 200px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 10px;
+
+}
+/*FORUM PAGE*/
+
+.posts{
+  color:#000;
+  font-family: "Lato";
+  font-size: 24px;
+overflow: hidden; /* if for some reason it escapes the visible area don't display anything. */
+}
+.posts h1{
+  font-size: 36px;
+}
+.logo img{
+  margin:50px;
+  display:block;
+}
+.logo a{
+   font-family: "Lato";
+
+  color:#fff;
+}
+
+.login-bg{ background-image:url("../images/bg.jpg");background-repeat:no-repeat; }
+
+
+.loginTitle p{
+
+  font-weight:300;
+
+  margin:0 auto;
+}
+.description{
+  margin-top:30px;
+  padding:20px;
+  background-color:#efefef;
+  overflow: hidden;
+
+}
+
+input.search {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    color:#000;
+    padding: 5px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+select{ padding: 5px 20px;}
+input.search:focus {
+    width: 80%;
+}
+
+.general input {
+  color: #000; background-color: #efefef;
+}
+.notifications{
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+  padding:0 3px;
+  position:absolute;
+  left:120px;
+  z-index: 0;
+}
+.inbox{
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+  padding:0 3px;
+  position:absolute;
+  left:58px;
+  z-index: 0;
+}
+.login input::-webkit-input-placeholder {
+color: #fff !important;
+}
+ 
+.login input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+}
+ 
+.login input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+}
+ 
+.login input:-ms-input-placeholder {  
+color: #fff !important;  
+}
+.loginTitle {
+ display: block;
+ margin-top: 100px;
+  margin-bottom:70px;
+  padding: 0px;
+  float:none;
+
+  font-weight:300;
+
+  text-transform: uppercase;
+  font-size: 90px;
+  font-family: "Lato";
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.settingsPanel{
+  padding:0px 50px;
+}
+.settingsPanel input {
+  color: #000; background-color: #efefef; width:230px;
+}
+.settingsPanel hr{
+  margin-top: 0px;
+  border-color: #AEAEAE;
+  max-width:680px;
+}
+.footer {
+  font-family: "Lato";
+  font-size: 18px;
+margin-top: 100px;}
+
+.footerlinks{
+  padding:30px;
+}
+.dmg {
+  color: rgb(172, 181, 82);
+  font-weight: bold;
+ 
+}
+.name {
+  font-size: 40px;
+}
+.loginConatiner{
+  vertical-align: baseline;
+}
+.establishConnections{
+  font-size: 20px;
+}
+.login{
+  text-align: center;
+  color:#fff;
+}
+.login p{
+  margin-bottom: 15px;
+  font-color:#fff;
+  font-size: 12px;
+}
+.threadPic{
+  padding-right:12px;
+}
+input {
+    color:#fff;
+    background: transparent;
+    border: none;
+   
+    border-bottom: 1px solid #fff;
+}
+
+hr{
+  border-top: 1px solid black;
+  max-width:1080px;
+}
+.postContent{
+  height:300px;
+}
+
+ul.list-unstyled li{
+margin-bottom:5px;
+
+}
+.headpanel{    text-shadow: 2px 2px #737373;
+margin-bottom: 40px;
+}
+.form-control{
+  padding-bottom: 10px;
+}
+.button a{ color: #fff;}
+.button {
+    background-color: #a85a2f;
+    border: none;
+   color: #fff;
+    width: 100px;
+    padding:5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 15px;
+    margin-left:0px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button:hover{
+  
+    background-color:#be7c58;
+    text-decoration: none;
+    color: #fff;
+}
+.comments .row {
+  margin:0;
+}
+a{
+    text-decoration: none;
+     font-color: #fff;
+
+}
+input[type=submit] {
+
+    width:100px;
+    background: #bfbfbf;
+    font-color:#fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 12px;
+}
+.comment{
+min-height:125px;
+}
+.comments{
+	padding:40px;
+  padding-top: 10px;
+}
+.submitform{
+  padding-top:10px;
+  font-size: 15px;
+
+}
+.submitform input{
+  margin-left: 0;
+  width:100%;
+  border: 1px solid #ccc; color: #000!important;
+}
+.submitform textarea{
+
+  border: 1px solid #ccc;
+  width:100%;
+}
+.taglist input{
+  width:30%;
+
+}
+.editpost textarea{
+
+  background-color:#efefef;
+  border:0px;
+  width:100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+.threadButtons{
+  padding-top:10px;
+
+}
+
+.show {display:block;}
+
+
+.clear {
+	clear:both;
+}
+.error{color:#f00; }
+@media only screen 
+and (max-width : 600px) {
+.headpanel{
+   font-family: "Lato"; 
+   background-image: url(../images/headpanel.png);
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+  .headpanelText h1{
+    font-size: 38px;
+    margin-bottom: 0px;
+  }
+  .headpanelText{
+    font-size: 15px;
+
+  }
+.date{
+font-size: 12px;
+}
+.posts p{
+  font-size: 18px;
+}
+.posts h1{
+  font-size: 25px;
+}
+.links{
+  font-size: 8px;
+}
+
+.button {
+    width: 60px;
+
+    font-size: 8px;
+
+
+}
+
+
+}
+
+@media only screen 
+and (max-width : 767px) {
+#navbar ul li a:hover{ border:none;}
+#navbar{
+      background: #272727;
+}
+.headerimg{
+  max-width:170px;
+}
+}
